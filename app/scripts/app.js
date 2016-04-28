@@ -8,6 +8,8 @@
  *
  * Main module of the application.
  */
+
+
 angular
   .module('testApp', [
     'ngAnimate',
@@ -34,3 +36,5 @@ angular
         redirectTo: '/'
       });
   });
+
+// var app = angular.module('myApp', []);

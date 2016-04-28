@@ -1,4 +1,4 @@
-<div class="container">
+<!-- <div class="container">
   <h2>Todo list</h2>
     <form role="form" ng-submit="addTodo()">
       <div class="row">
@@ -10,7 +10,7 @@
         </div>  
       </div>      
     </form>
-  <!-- Todo list -->
+
 
   <div ui-sortable ng-model="todos">
     <p class="input-group" ng-repeat="todo in todos" style="padding:5px 10px; cursor: move;">
@@ -21,3 +21,30 @@
     </p>
   </div> 
 </div>
+ -->
+
+<!--  <div class="controller">
+  <div ng-app="testApp" ng-controller="MainCtrl">
+    FirstName: <input type="text" ng-model="firstName">
+    LastName: <input type="text" ng-model="lastName">  <br>
+    Full Name is {{firstName +" "+ lastName}}
+  </div>     
+ </div> -->
+
+
+
+
+
+
+
+<div ng-app="myApp" ng-controller="customersCtrl"> 
+
+<table>
+  <tr ng-repeat="x in myData">
+   <td> {{ x.Name }} </td>
+    <td>{{ x.Country }}</td>
+  </tr>
+</ul>
+
+</div>
+
