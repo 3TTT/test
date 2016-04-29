@@ -1,1 +1,21 @@
-<p>This is the about view.</p>
+<div ng-controller="AboutCtrl1">
+	<div>
+		<table>
+			<tr ng-repeat="x in names">
+				<td> {{x.Name}}</td>
+				<td>{{x.Country}}</td>
+				
+			</tr>
+		</table>
+	</div>
+</div>
+
+<div  ng-controller="menuList">
+	<div>
+		<button ng-click="myFun()">Clcik me to see menu</button>
+		<div ng-show="list">
+			<h2>one</h2>
+			<h2>dns</h2>
+		</div>
+	</div>
+</div>
